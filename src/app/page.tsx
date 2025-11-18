@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import { getTranslations, t } from '@/lib/i18n-server';
+import { REVALIDATE_TIME_15_MINUTES } from '@/constants';
+
+export const revalidate = REVALIDATE_TIME_15_MINUTES;
 
 export default async function Home() {
   const translations = await getTranslations();

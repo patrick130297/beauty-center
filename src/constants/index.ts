@@ -22,3 +22,5 @@ export enum Locale {
   PT_BR = 'pt-BR',
 }
 
+export const REVALIDATE_TIME_15_MINUTES = 900;
+

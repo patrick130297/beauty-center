@@ -2,12 +2,13 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getCenter } from '@/lib/centers';
 import { getTranslations, t } from '@/lib/i18n-server';
+import { REVALIDATE_TIME_15_MINUTES } from '@/constants';
 import { CenterHeader } from './components/CenterHeader';
 import { ServicesHeader } from './components/ServicesHeader';
 import { ServicesListWrapper } from './components/ServicesListWrapper';
 import { EmptyServices } from './components/EmptyServices';
 
-export const revalidate = 900;
+export const revalidate = REVALIDATE_TIME_15_MINUTES;
 export const dynamicParams = true;
 
 export async function generateMetadata({
@@ -53,7 +54,6 @@ export default async function CenterPage({
   const { center: centerSlug } = await params;
   const center = await getCenter(centerSlug);
 
-  // notFound() automaticamente chama not-found.tsx
   if (!center) {
     notFound();
   }
