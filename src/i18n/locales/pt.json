@@ -1,0 +1,101 @@
+{
+  "common": {
+    "name": "Nome",
+    "email": "Email",
+    "date": "Data",
+    "time": "Hora",
+    "cancel": "Cancelar",
+    "back": "Voltar",
+    "home": "Início",
+    "required": "Obrigatório",
+    "invalid": "Inválido",
+    "tryAgain": "Tentar novamente"
+  },
+  "home": {
+    "title": "Sistema de Agendamento",
+    "subtitle": "Escolha um centro de beleza para visualizar serviços e agendar",
+    "viewServices": "Ver serviços →"
+  },
+  "center": {
+    "ourServices": "Nossos Serviços",
+    "chooseService": "Escolha um serviço e agende seu horário",
+    "noServices": "Nenhum serviço disponível no momento.",
+    "centerNotFound": "Centro não encontrado",
+    "centerNotExists": "O centro solicitado não existe.",
+    "backToHome": "Voltar para a página inicial",
+    "loading": "Carregando informações do centro...",
+    "errorLoading": "Erro ao carregar dados do centro.",
+    "backToCenter": "Voltar ao Centro",
+    "errorTitle": "Algo deu errado",
+    "errorMessage": "Ocorreu um erro ao carregar esta página.",
+    "errorDigest": "Código de erro"
+  },
+  "service": {
+    "book": "Agendar",
+    "min": "min",
+    "h": "h"
+  },
+  "booking": {
+    "title": "Agendar",
+    "nameRequired": "Nome é obrigatório",
+    "emailRequired": "Email é obrigatório",
+    "emailInvalid": "Email inválido",
+    "dateRequired": "Data é obrigatória",
+    "dateFuture": "A data deve ser no futuro",
+    "timeRequired": "Hora é obrigatória",
+    "timeBusinessHours": "O horário deve estar entre 9h e 18h",
+    "selectTime": "Selecione um horário",
+    "confirming": "Agendando...",
+    "confirm": "Confirmar Agendamento",
+    "dateTimeFuture": "Data e hora devem estar no futuro"
+  },
+  "confirmation": {
+    "title": "Agendamento Confirmado!",
+    "subtitle": "Seu agendamento foi realizado com sucesso.",
+    "details": "Detalhes do Agendamento",
+    "service": "Serviço",
+    "client": "Cliente",
+    "loading": "Carregando confirmação...",
+    "backToCenter": "Voltar ao Centro",
+    "homePage": "Página Inicial"
+  },
+  "centers": {
+    "center1": {
+      "name": "Beauty Salon Premium",
+      "description": "Um salão de beleza premium oferecendo os melhores serviços de cuidado pessoal e bem-estar.",
+      "services": {
+        "service1": {
+          "name": "Corte de Cabelo",
+          "description": "Corte moderno e estilizado realizado por profissionais experientes."
+        },
+        "service2": {
+          "name": "Coloração",
+          "description": "Coloração completa com produtos de alta qualidade."
+        },
+        "service3": {
+          "name": "Manicure e Pedicure",
+          "description": "Cuidado completo das unhas das mãos e pés."
+        },
+        "service4": {
+          "name": "Tratamento Facial",
+          "description": "Tratamento facial rejuvenescedor e hidratante."
+        }
+      }
+    },
+    "center2": {
+      "name": "Spa Relax",
+      "description": "Um ambiente tranquilo e relaxante para cuidar do seu corpo e mente.",
+      "services": {
+        "service5": {
+          "name": "Massagem Relaxante",
+          "description": "Massagem completa para aliviar tensões e relaxar."
+        },
+        "service6": {
+          "name": "Tratamento Corporal",
+          "description": "Tratamento completo para hidratação e rejuvenescimento da pele."
+        }
+      }
+    }
+  }
+}
+

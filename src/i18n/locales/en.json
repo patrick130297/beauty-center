@@ -1,0 +1,101 @@
+{
+  "common": {
+    "name": "Name",
+    "email": "Email",
+    "date": "Date",
+    "time": "Time",
+    "cancel": "Cancel",
+    "back": "Back",
+    "home": "Home",
+    "required": "Required",
+    "invalid": "Invalid",
+    "tryAgain": "Try again"
+  },
+  "home": {
+    "title": "Booking System",
+    "subtitle": "Choose a beauty center to view services and book",
+    "viewServices": "View services →"
+  },
+  "center": {
+    "ourServices": "Our Services",
+    "chooseService": "Choose a service and book your appointment",
+    "noServices": "No services available at the moment.",
+    "centerNotFound": "Center not found",
+    "centerNotExists": "The requested center does not exist.",
+    "backToHome": "Back to home page",
+    "loading": "Loading center information...",
+    "errorLoading": "Error loading center data.",
+    "backToCenter": "Back to Center",
+    "errorTitle": "Something went wrong",
+    "errorMessage": "An error occurred while loading this page.",
+    "errorDigest": "Error code"
+  },
+  "service": {
+    "book": "Book",
+    "min": "min",
+    "h": "h"
+  },
+  "booking": {
+    "title": "Book",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email",
+    "dateRequired": "Date is required",
+    "dateFuture": "Date must be in the future",
+    "timeRequired": "Time is required",
+    "timeBusinessHours": "Time must be between 9 AM and 6 PM",
+    "selectTime": "Select a time",
+    "confirming": "Booking...",
+    "confirm": "Confirm Booking",
+    "dateTimeFuture": "Date and time must be in the future"
+  },
+  "confirmation": {
+    "title": "Booking Confirmed!",
+    "subtitle": "Your booking has been successfully completed.",
+    "details": "Booking Details",
+    "service": "Service",
+    "client": "Client",
+    "loading": "Loading confirmation...",
+    "backToCenter": "Back to Center",
+    "homePage": "Home Page"
+  },
+  "centers": {
+    "center1": {
+      "name": "Beauty Salon Premium",
+      "description": "A premium beauty salon offering the best personal care and wellness services.",
+      "services": {
+        "service1": {
+          "name": "Haircut",
+          "description": "Modern, stylish haircut performed by experienced professionals."
+        },
+        "service2": {
+          "name": "Hair Coloring",
+          "description": "Full coloring service using high-quality products."
+        },
+        "service3": {
+          "name": "Manicure and Pedicure",
+          "description": "Complete care for fingernails and toenails."
+        },
+        "service4": {
+          "name": "Facial Treatment",
+          "description": "Rejuvenating and hydrating facial treatment."
+        }
+      }
+    },
+    "center2": {
+      "name": "Spa Relax",
+      "description": "A calm, relaxing environment to take care of your body and mind.",
+      "services": {
+        "service5": {
+          "name": "Relaxing Massage",
+          "description": "Full massage session to relieve tension and relax."
+        },
+        "service6": {
+          "name": "Body Treatment",
+          "description": "Complete treatment to hydrate and rejuvenate your skin."
+        }
+      }
+    }
+  }
+}
+
